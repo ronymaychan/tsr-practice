@@ -1,0 +1,29 @@
+host=3.6.235.187
+app=JenkinsTrigger
+service=key
+utility=git
+token=22552082
+empId=51766
+
+http://3.6.235.187:8080/JenkinsTrigger/api/key/git/userName/51766/22552082 
+=>AWSCC_India_Java+1-at-981817409357
+
+http://3.6.235.187:8080/JenkinsTrigger/api/key/git/password/51766/22552082 
+=>XIOLc+5X5PwCCoj/2wSa2yHh3VYmqoOfiySVlMycObA=
+
+http://3.6.235.187:8080/JenkinsTrigger/api/key/getcasestudy/51766
+=>CRMS
+
+
+cmdkey /generic:git:https://git-codecommit.us-east-1.amazonaws.com /user:AWSCC_India_Java+1-at-981817409357 /pass:XIOLc+5X5PwCCoj/2wSa2yHh3VYmqoOfiySVlMycObA=
+
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/CRMS-22552082
+
+
+SUBMMITED
+
+Post Summited
+http://3.6.235.187:8080/JenkinsTrigger/api/evaluation/51766/CRMS/dotnet/angular/22552082
+{"empid": 51766}
+
+http://3.6.235.187:8080/JenkinsTrigger/api/employee/submittest/51766
